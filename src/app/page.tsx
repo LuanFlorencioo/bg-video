@@ -8,12 +8,12 @@ import VideoDemo from "/videos/bmw-cinematic.mp4";
 export default function Home() {
   return (
     <main className="w-full min-h-screen px-4 relative overflow-hidden">
-      <header className="w-full max-w-7xl mx-auto mt-8 px-2 py-4 bg-background/75 backdrop-blur-md rounded-md flex items-center justify-between">
+      <header className="w-full max-w-7xl mx-auto mt-8 p-4 bg-background/50 backdrop-blur-md rounded-md grid grid-cols-[150px_1fr_150px] items-center">
         <Logo />
 
         <NavigationMenu />
 
-        <Button>
+        <Button className="justify-self-end">
           Get started <ArrowRight />
         </Button>
       </header>
