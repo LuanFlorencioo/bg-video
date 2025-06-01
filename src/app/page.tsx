@@ -3,7 +3,7 @@ import { NavigationMenu } from "@/components/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import BackgroundVideo from "next-video/background-video";
-import VideoDemo from "/videos/bmw-demo.mp4";
+import VideoDemo from "/videos/bmw-cinematic.mp4";
 
 export default function Home() {
   return (
